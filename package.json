@@ -1,0 +1,30 @@
+{
+  "name": "aws-signature-v4-npm-package",
+  "version": "1.0.0",
+  "description": "Library to help in authentication via AWS signature v4 to access AWS IOT APIs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashu2310/AWS-Signature-V4-NPM-package.git"
+  },
+  "keywords": [
+    "NPM",
+    "Node"
+  ],
+  "author": "Sandeep235",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashu2310/AWS-Signature-V4-NPM-package/issues"
+  },
+  "homepage": "https://github.com/sashu2310/AWS-Signature-V4-NPM-package#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  }
+}
